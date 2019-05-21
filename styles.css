@@ -9,18 +9,24 @@ body {
     background-color: #E4F6C5;
     text-align: center;
     font-family:'PT Sans', sans-serif;
+    margin-bottom: 20px;
 }
 
+header{
+    background-color: #73AD21;
+}
 nav{
     display: inline-block;
 }
 
 #icons{
     float: left;
+    padding: 15px;
 }
 
 #menu{
     float: right;
+    padding: 15px;
 }
 
 nav a:link{
@@ -30,7 +36,7 @@ nav a:link{
 
 
 a:hover {
-    color: green;
+    color: black;
 }
 
 ul {
@@ -58,4 +64,3 @@ footer {
     position: fixed;
     width: 100%;
 }
-
