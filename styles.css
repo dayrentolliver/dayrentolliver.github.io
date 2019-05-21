@@ -11,7 +11,19 @@ body {
     font-family:'PT Sans', sans-serif;
 }
 
-a:link{
+nav{
+    display: inline-block;
+}
+
+#icons{
+    float: left;
+}
+
+#menu{
+    float: right;
+}
+
+nav a:link{
     text-decoration: none;
     padding: 0 12px;
 }
@@ -33,7 +45,7 @@ li {
     background: white;
     margin: auto;
     width: 60%;
-    border: 1px solid #73AD21;
+    border: 2px solid #73AD21;
     padding: 10px;
 
 }
@@ -46,3 +58,4 @@ footer {
     position: fixed;
     width: 100%;
 }
+
