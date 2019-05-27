@@ -1,7 +1,13 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
 .profile-pic {
     border-radius: 50%;
     width:300px;
-    height:300px;
+    height:auto;
     border:solid black 1px;
 }
 
@@ -17,9 +23,10 @@ header{
     top: 0;
     width: 100%;
     background-color: #73AD21;
+    
 }
 nav{
-    display: inline-block;
+    display: inline;
 }
 
 #icons{
@@ -37,6 +44,9 @@ nav a:link{
     padding: 0 12px;
 }
 
+a{
+    text-decoration: none;
+}
 
 a:hover {
     color: black;
@@ -60,14 +70,36 @@ li {
     width: 60%;
     border: 2px solid #73AD21;
     padding: 10px;
+}
+
+.card-img-top {
+    max-width:100%;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 
 }
 
+.card {
+    border: 1px solid black;
+    padding: 10%;
+    height: auto;
+    width: 50%;
+    width: 18rem;
 
-footer {
-    background-color: #FFFFFF; /*#DFFBAE*/
-    margin: 100px -15px;
-    padding: 1em;
+}
+
+button {
+    padding: 3%;
+}
+/*
+.footer {
+    background-color: #73AD21;
     position: fixed;
-    width: 100%;
+    bottom:0;
+    width: 100%;    
 }
+*/
