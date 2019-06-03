@@ -31,12 +31,12 @@ header{
     
     
 }
-nav{
+nav {
     display: inline;
     
 }
 
-#icons{
+footer #icons{
     float: left;
     padding: 15px;
     
@@ -48,13 +48,13 @@ nav{
     
 }
 
-nav a:link{
+nav a:link, footer a:link {
     text-decoration: none;
     padding: 0 12px;
     color: white;
 }
 
-nav a:visited {
+nav a:visited, footer a:visited {
     color: white;
 }
 
@@ -62,7 +62,7 @@ a{
     text-decoration: none;
 }
 
-nav a:hover {
+nav a:hover, footer a:hover {
     color: #73AD21;
 }
 
