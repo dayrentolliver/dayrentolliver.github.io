@@ -84,7 +84,7 @@ li {
 .sections {
     background: white;
     margin: auto;
-    width: 60%;
+    width: 70%;
     border: 2px solid #420e0e;
     padding: 10px;
 }
@@ -98,7 +98,7 @@ li {
     flex-grow:1;
     flex-shrink:0;
     flex-basis: auto;
-    border: 1px solid black;
+    border: 1px solid #420e0e;
 }
 
 .cards {
@@ -121,7 +121,7 @@ button {
     color: #0d65ef;
     background-color: white;
     border-radius: 25px;
-    border: 1px solid black;
+    border: 1px solid #420e0e;
     display: inline-block;
 }
 
@@ -143,6 +143,9 @@ button:hover{
 @media only screen and (max-width: 500px) {
     .card {
         width: 100%;
+    }
+    .profile-pic {
+        width: 200px;
     }
   }
 
