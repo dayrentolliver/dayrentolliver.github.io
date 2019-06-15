@@ -4,7 +4,7 @@
     box-sizing: border-box;
   }
 
-#container{
+#container {
     position: relative;
     height:100%;
     width: 100%;
@@ -24,11 +24,7 @@ body {
     font-family:'PT Sans', Arial, sans-serif;
 }
 
-#header{
-    padding-bottom: 100px;
-}
-
-header{
+header {
     position: fixed;
     top: 0;
     width: 100%;
@@ -38,25 +34,23 @@ nav {
     display: inline;
 }
 
-footer #icons{
+.footer #icons{
     text-align: center;
-    padding: 15px;
-    
+    padding: 15px; 
 }
 
 #menu{
     float: right;
     padding: 15px;
-    
 }
 
-nav a:link, footer a:link {
+nav a:link, .footer a:link {
     text-decoration: none;
     padding: 0 12px;
     color: white;
 }
 
-nav a:visited, footer a:visited {
+nav a:visited, .footer a:visited {
     color: white;
 }
 
@@ -64,7 +58,7 @@ a {
     text-decoration: none;
 }
 
-nav a:hover, footer a:hover {
+nav a:hover, .footer a:hover {
     color: #0d65ef;
 }
 
@@ -89,7 +83,7 @@ li {
     padding: 10px;
 }
 
-#about{
+#about {
     line-height: 1.6;
 }
 
@@ -148,7 +142,7 @@ button:hover{
         width: 200px;
     }
   }
-
+/*Tablet Styles*/
   @media only screen and (min-width: 401px) and (max-width: 960px) {
     nav #menu{
       float: none;
