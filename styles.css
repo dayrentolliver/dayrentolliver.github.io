@@ -18,14 +18,11 @@
     border:solid 2px black;
 }
 
-html {
-    scroll-behavior: smooth;
-  }
-
-body {
+html, body {
     background-color: #eeeeef;
     text-align: center;
     font-family:'PT Sans', Arial, sans-serif;
+    scroll-behavior: smooth;
 }
 
 header {
@@ -87,6 +84,7 @@ li {
     padding: 10px;
     background-color: white;
     box-shadow: 10px 5px 5px gray;
+    border-radius: 15px;
 }
 
 #about {
@@ -115,11 +113,13 @@ li {
 .card {
     border: 2px solid black;
     background-color: #eeeeef;
-    
     padding: 3%;
     height: auto;
-    width: 50%;
+    width: 45%;
     align-items: center;
+    border-radius: 15px;
+    margin: 1%;
+    box-shadow: 10px 5px 5px gray;
 }
 
 button {
